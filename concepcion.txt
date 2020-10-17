@@ -1,10 +1,14 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 My name is Optimus Prime, ROLL OUT!
 =======
 <<<<<<< HEAD
 hello i am yabut mary nicole
+=======
+hello I am Azariah Danizar G. Concepcion
+>>>>>>> f7c8174d3a8f033d44adf3fb68690c27e037da42
 
 =======
-Peter Piper picked a peck of pickled peppers.
+Si Joross Christ ang aking idolo
 >>>>>>> ea274ff22050beedcc476ab6278b469c73a90973
 >>>>>>> 44dee1d3b23f711f94cb8a8060c19f8b0bfb02e0
