@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-My name is Optimus Prime
-=======
-Peter Piper picked a peck of pickled peppers.
->>>>>>> 8540db267c73e2f06b24651c9820930f62dfb921
+My name is Optimus Prime, ROLL OUT!
