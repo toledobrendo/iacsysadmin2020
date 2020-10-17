@@ -1,1 +1,10 @@
+<<<<<<< HEAD
 My name is Optimus Prime, ROLL OUT!
+=======
+<<<<<<< HEAD
+hello i am yabut mary nicole
+
+=======
+Peter Piper picked a peck of pickled peppers.
+>>>>>>> ea274ff22050beedcc476ab6278b469c73a90973
+>>>>>>> 44dee1d3b23f711f94cb8a8060c19f8b0bfb02e0
