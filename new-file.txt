@@ -1,1 +1,6 @@
+<<<<<<< HEAD
+hello i am yabut mary nicole
+
+=======
 Peter Piper picked a peck of pickled peppers.
+>>>>>>> ea274ff22050beedcc476ab6278b469c73a90973
