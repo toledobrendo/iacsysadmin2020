@@ -17,9 +17,9 @@
             $stmt = $db->prepare($query);
 
             $stmt->execute();
-            $result = $stmt->get_result();
+            $stmt->bind_result($result);
 
-            while ($row = $result->fetch_assoc()) {
+            while ($row = $result->fetch()) {
                 echo '<p>ID: '.$row['id'].' - Value: '.$row['value'];
             }
         ?>
