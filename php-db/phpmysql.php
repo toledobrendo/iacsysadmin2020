@@ -13,6 +13,11 @@
 
             @ $db = new mysqli(DB_HOST_IP.':'.DB_PORT, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
+            if (mysqli_connect_errno()) {
+                printf("Connect failed: %s\n", mysqli_connect_error());
+                exit();
+            }
+
             $query = 'select * from sample_table;';
             $stmt = $db->prepare($query);
 
