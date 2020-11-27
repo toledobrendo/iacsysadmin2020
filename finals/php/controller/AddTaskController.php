@@ -5,6 +5,7 @@
 
     $newTask = $_POST['newTask'];
     $createdDate = time();
+    $createdDateString = date("Y-m-d H:i:s ",$createdDate);
 
     try {
         if (!$newTask) {
@@ -20,7 +21,7 @@
 
         $query = 'insert into tasks (name, created_date) values (?, ?)';
         $stmt = $db->prepare($query);
-        $stmt->bind_param("ss", $newTask, $createdDate);
+        $stmt->bind_param("ss", $newTask, $createdDateString);
         $stmt->execute();
 
         $affectedRows = $stmt->affected_rows;
