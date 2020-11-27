@@ -22,12 +22,14 @@
 
         $affectedRows = $stmt->affected_rows;
         if ($affectedRows > 0) {
-            echo $affectedRows." author inserted into the database.";
+            echo $affectedRows." task inserted into the database.";
         } else {
-            throw new Exception('Error: The author was not added.');
+            throw new Exception('Error: The task was not added.');
         }
 
         $stmt->close();
+
+        header('Location: ../../index.php');
     } catch (Exception $e) {
         echo $e->getMessage();
     }
