@@ -4,6 +4,7 @@
     require_once __ROOT__.'/resources/DatabaseProperties.php';
 
     $newTask = $_POST['newTask'];
+    $createdDate = time();
 
     try {
         if (!$newTask) {
@@ -19,7 +20,7 @@
 
         $query = 'insert into tasks (name, created_date) values (?, ?)';
         $stmt = $db->prepare($query);
-        $stmt->bind_param("ss", $newTask, new DateTime());
+        $stmt->bind_param("ss", $newTask, $createdDate);
         $stmt->execute();
 
         $affectedRows = $stmt->affected_rows;
