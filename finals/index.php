@@ -1,4 +1,7 @@
-<?php require_once 'php/controller/IndexController.php'?>
+<?php
+    ini_set('display_errors', 1);
+    require_once 'php/controller/IndexController.php'
+?>
 <html>
 <head>
     <title>My Tasks</title>

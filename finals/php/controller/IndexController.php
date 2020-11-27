@@ -1,5 +1,7 @@
 <?php
-    require_once '../model/Tasks.php';
+    define('__ROOT__', dirname(dirname(__FILE__)));
+    require_once __ROOT__.'/resources/DatabaseProperties.php';
+    require_once __ROOT__.'/model/Tasks.php';
 
     try {
         @ $db = new mysqli(DB_HOST_IP.':'.DB_PORT, DB_USERNAME, DB_PASSWORD, DB_NAME);

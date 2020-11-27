@@ -1,5 +1,6 @@
 <?php
-    require_once '../resources/DatabaseProperties.php';
+    define('__ROOT__', dirname(dirname(__FILE__)));
+    require_once __ROOT__.'/resources/DatabaseProperties.php';
 
     $newTask = $_POST['newTask'];
 
