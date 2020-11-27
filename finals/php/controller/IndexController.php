@@ -20,8 +20,8 @@
         $tasks = array();
         while ($row = $result->fetch_assoc()) {
             $task = new Task();
-            $task->setName($row['id']);
-            $task->setCreatedDate($row['createdDate']);
+            $task->setName($row['name']);
+            $task->setCreatedDate($row['created_date']);
             array_push($tasks, $task);
         }
     } catch (Exception $e) {
