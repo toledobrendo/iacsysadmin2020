@@ -3,7 +3,7 @@
         <title>Sample PHP MySQL</title>
     </head>
     <body>
-        <h3>Values inside sample.sample_table</h3>
+        <h3>Values inside sample.sample_table. Yes</h3>
         <?php
             define('DB_HOST_IP', '127.0.0.1');
             define('DB_PORT', '3306');
